@@ -7,3 +7,7 @@ public class helloworld{
 }
 
 void button1_Click(object sender,EventArgs e)
+{
+   string str = "hello world";
+   console.writeLine("this word is:{0}" + str);
+}
