@@ -1,1 +1,2 @@
 <string-array name="array">StringArray</string-array>
+array
