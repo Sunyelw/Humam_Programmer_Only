@@ -1,2 +1,2 @@
 <string-array name="array">StringArray</string-array>
-array
+array  text to .
