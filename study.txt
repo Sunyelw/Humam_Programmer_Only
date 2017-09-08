@@ -1,0 +1,28 @@
+$ git user.name "Your name"
+$ git user.email "eamil address"
+
+$ git status
+Changes ... //表明被修改
+Untracked ... //表明未提交
+
+$ git diff <filename># 数字好像不支持。
+$ git add .
+$ git add <filename>
+$ git cat <filename> # 查看当前文件内容
+$ git commit -m "description"
+
+# 穿梭
+$ git log
+$ git reset --hard HEAD^
+$ git reset --hard HEAD^^  # HEAD^100
+$ git reset --hard fe194ab # 回 溯
+
+$ git reflog # 查看版本号
+$ git log --graph --pretty=format:'%h -%d %s (%cr)' --abbrev-commit --reflog
+
+add: 工作区（即初始创建的仓库:文件夹TestGit）-->版本库（.git）中的暂存区stage（index）
+//.git文件夹隐藏在仓库内，但并不算工作区，而是版本库（repository）
+
+commit: stage  -->  master(当前分支，例如master)
+
+$ git diff HEAD -- a.txt # 比较工作区的当前版本与 版本库里面提交（commit）的最新版本间                           的区别，而不是与版本库里暂存区内的版本作比较。
