@@ -1,3 +1,3 @@
 <string-array name="array">StringArray</string-array>
 array  text to .
-insert into hetong
+update hetong where
