@@ -30,3 +30,5 @@ $ git diff HEAD -- a.txt # 比较工作区的当前版本与 版本库里面提交（commit）的最新
 git diff 是工作区和暂存区的对比
 git diff -- cached 是暂存区和分支的对比
 git diff HEAD -- readme.txt  工作区和分支的对比
+
+study.xy
