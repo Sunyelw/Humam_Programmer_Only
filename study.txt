@@ -26,3 +26,7 @@ add: 工作区（即初始创建的仓库:文件夹TestGit）-->版本库（.git）中的暂存区stage（i
 commit: stage  -->  master(当前分支，例如master)
 
 $ git diff HEAD -- a.txt # 比较工作区的当前版本与 版本库里面提交（commit）的最新版本间                           的区别，而不是与版本库里暂存区内的版本作比较。
+###
+git diff 是工作区和暂存区的对比
+git diff -- cached 是暂存区和分支的对比
+git diff HEAD -- readme.txt  工作区和分支的对比
